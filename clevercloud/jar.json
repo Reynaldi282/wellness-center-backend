@@ -1,8 +1,8 @@
  
  "build": {
-     "type": "gradle",
-     "goal": "build"
+     "type": "maven",
+     "goal": "spring-boot:run"
  },
  "deploy": {
-     "jarName": "build/libs/gs-spring-boot-0.1.0.jar"
+     "jarName": "build/libs/wellness-center-backend-0.1.0.jar"
  }
